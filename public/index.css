@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-outline-warning {
+    background-color: #f8f9fa;
+    border: none;
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.btn-outline-warning:hover {
+    background-color: #fff056;
+}
+
+.form-check-input {
+    color: #f8f9fa;
+    background-color: #c7a126;
+}
