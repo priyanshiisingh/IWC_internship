@@ -4,21 +4,64 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #858383;
+    font-weight: 500;
+}
+
+.card {
+    width: 45rem;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.inputb {
+    text-align: end;
+    width: 100%;
+    border: 1px solid #c7c6c6;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    height: 60px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#btng1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.head1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn-outline-warning {
     background-color: #f8f9fa;
     border: none;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
     color: black;
     font-weight: 600;
-    margin: 10px;
+    margin: 2px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .btn-outline-warning:hover {
     background-color: #fff056;
 }
 
-.form-check-input {
-    color: #f8f9fa;
-    background-color: #c7a126;
+.accordion-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#flexSwitchCheckDefault {
+    background-color: #ffd13a;
+    border: none;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
 }
